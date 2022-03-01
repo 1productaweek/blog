@@ -5,18 +5,18 @@ function ProductHunt ({ name, id }) {
   return (
     <a
       css={styles.container}
-      href={`https://snapboard.io/blog`}
+      href={`https://www.producthunt.com/posts/${id}`}
       target='_blank' rel='noopener noreferrer'>
       <div>
-        <div className='title'>1 Product a Week has moved!</div>
-        <div className='desc xs-hide sm-hide'>Continue the journey over on Snapboard's Blog
+        <div className='title'>{name} is trending on ProductHunt!</div>
+        <div className='desc xs-hide sm-hide'>Please check us out over there and don't forget to…
           <span
             css={css`font-size: 1.4em; line-height: 7px; position: relative; top: 4px; margin-left: 0.3em;`}
             role='img'
-            aria-label='wink'>🚀</span>
+            aria-label='wink'>😉</span>
         </div>
       </div>
-      <a>View</a>
+      <a href='#'>View</a>
     </a>
   )
 }
@@ -26,7 +26,7 @@ const styles = {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     padding: 0.9em 1.1em;
-    background: #009688;
+    background: #da552f;
     color: #fff;
     width: 100%;
     max-width: 100%;
