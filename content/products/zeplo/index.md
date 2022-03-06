@@ -9,18 +9,19 @@ toc: Plan,Day 1,Day 2,Day 3,Day 4,Day 5,Day 6,Day 7,Day 8,Day 9,Day 10,Day 11,Da
 icon: ./relay-logo.png
 redirect_from:
   - /relay
+  - /Zeplo
 ---
 
 ![Relay Screenshot](./relay-screenshot.png "Relay Screenshot")
 
-Ralley is a modern managed queue (queue as a service), which requires no setup as it works over HTTPS! Ralley works like any other queue, but instead of pushing jobs, you push requests.
+Zeplo is a modern managed queue (queue as a service), which requires no setup as it works over HTTPS! Zeplo works like any other queue, but instead of pushing jobs, you push requests.
 
-Simply prefix a request with `ralley.to/` and we'll queue and forward the request with the exact same body/headers/parameters. 
+Simply prefix a request with `Zeplo.to/` and we'll queue and forward the request with the exact same body/headers/parameters. 
 
-No additional configuration for your endpoint, requests can be sent directly as normal (sync) or via the ralley queue (async).
+No additional configuration for your endpoint, requests can be sent directly as normal (sync) or via the Zeplo queue (async).
 
 
-You can use Ralley to:
+You can use Zeplo to:
 
  * **retry** requests that error automatically or manually
 
@@ -81,7 +82,7 @@ Developer - especially if they are using serverless (Zeit, AWS Lambda).
 
 #### MVP / Keep it simple
 
- * Queue a request using the prefix `ralley.to/`
+ * Queue a request using the prefix `Zeplo.to/`
  * Build a 2-page admin app (list/detail view) - incl manual job scheduling 
  * Tags - allows the user to tag the queued request
  * Queue features - delay, schedule, CRON, retry, throttle
@@ -178,9 +179,9 @@ Wednesday, 24 June 2020
 Still hoping to launch tomorrow!
 
  - [x] Continue working on docs
- - [x] Implement [schedueled (e.g. cron/interval) jobs](https://ralley.io/docs/#schedule)
+ - [x] Implement [schedueled (e.g. cron/interval) jobs](https://Zeplo.io/docs/#schedule)
  - [x] Add use cases to the home page
- - [x] Buy the domain [ralley.io](https://ralley.io)  (getting real!)
+ - [x] Buy the domain [Zeplo.io](https://Zeplo.io)  (getting real!)
  - [x] Add onboarding message when no jobs have been sent yet
 
 ![Use cases](./use-cases.png)
@@ -194,9 +195,9 @@ Darn, no launch today (stayed up until 4am to try and get it all done) - still q
 
 There's still quite a bit to do, not sure how I thought I was going to launch today! 😂
 
- - [x] Create a [bulk API](https://ralley.io/docs/#bulk) (this took most of the day)
+ - [x] Create a [bulk API](https://Zeplo.io/docs/#bulk) (this took most of the day)
  - [x] Allowed record to be re-processed
- - [x] Strip Ralley headers/params from requests before forwarding
+ - [x] Strip Zeplo headers/params from requests before forwarding
  - [x] Played Call of Duty with a friend! 🔫🔫🔫🔫
 
 
@@ -244,7 +245,7 @@ New launch day Wednesday 1 July 2020.
 ### Day 12
 Tuesday, 30 June 2020
 
-Wow, adding billing is hard. I thought I could copy a lot of this from Snapboard, but it turns out that Ralley has quite a different pricing modal AND Snapboard didn't actually enforce limits. I've also been reviewing the pricing stragey and this is what I've come up with
+Wow, adding billing is hard. I thought I could copy a lot of this from Snapboard, but it turns out that Zeplo has quite a different pricing modal AND Snapboard didn't actually enforce limits. I've also been reviewing the pricing stragey and this is what I've come up with
 
  - [x] Add billing
  - [x] Create e-mail templates for onboarding, etc
